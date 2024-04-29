@@ -1,0 +1,25 @@
+.bankOfferSlider{
+    position: relative;
+    /* border: 2px solid white; */
+    height: 17vh;
+    
+}
+.bankOfferSlider > img{
+    position: absolute;
+    width: 48%;
+    height: 100%;
+}
+.offerHeading{
+    /* color: white; */
+    font-size: x-large ;
+    font-weight: bold;
+    /* border: 1px solid white; */
+    margin-bottom: 2vh;
+}
+.headingContainer{
+    /* border: 1px solid white; */
+    margin: auto;
+    width: 91vw;
+    margin-top: 4vh;
+    padding-left: 2vw;
+}

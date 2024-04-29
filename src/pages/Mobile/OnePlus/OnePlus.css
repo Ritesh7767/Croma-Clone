@@ -1,0 +1,7 @@
+.detailContainer::-webkit-scrollbar{
+    display: none;
+}
+.detailContainer{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

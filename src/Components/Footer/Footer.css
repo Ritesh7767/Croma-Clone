@@ -1,0 +1,15 @@
+.footerList{
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    font-weight: bold;
+    font-size: small;  
+}
+.footerList li{
+    margin-bottom: 2vh;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.footerList li:hover{
+    color: #12DAA8;
+}

@@ -1,0 +1,92 @@
+.navParent{
+    background-color: #000000;
+    color: white;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+.nav1, .nav2{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    /* border: 2px solid white; */
+}
+.nav1{
+    justify-content: space-between;
+    width: 60%;
+}
+.nav1 input{
+    width: 35vw;
+    height: 7vh;
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+}
+.nav1 input:focus{
+    outline: none;
+}
+.menu > span{
+    display: inline-block;
+    margin-right: 3px;
+}
+.nav2{
+    width: 20%;
+    justify-content: space-around;
+    /* font-size: large; */
+}
+.profileLogo, .cartLogo{
+    font-size: x-large;
+}
+.tooltipContainer{
+    scroll-behavior: smooth;
+    scrollbar-color: #00E9BF #191919;
+    scrollbar-width: thin;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 0.5s ease-in-out , opacity 0.3s ease;
+}
+.profileLogo:hover .tooltipContainer{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-12.7%);
+}
+::-webkit-scrollbar-button:increment, 
+::-webkit-scrollbar-button:decrement{
+    width: 0;
+}
+.tooltipContainer > div{
+    /* border: 1px solid white; */
+    height: 9vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 10px;
+    height: 15vh;
+}
+.tooltipContainer > div > div{
+    margin-left: 20px;
+    width: 75%;
+}
+.tooltipContainer > div > div > h3{
+    /* font-size: large; */
+    font-size: 18px;
+    font-weight: bold;
+    /* display: inline-block; */
+    margin: 0;
+}
+.tooltipContainer span {
+    font-size: small;
+    /* height: 10px; */
+    /* border: 1px solid white;
+    overflow: ellipsis; */
+}

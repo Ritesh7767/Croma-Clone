@@ -1,0 +1,41 @@
+.categories-parent{
+    width: 97vw;
+    margin: auto;
+    position: relative;
+    height: 20vh;
+    box-sizing: border-box;
+}
+.categories-prev, .categories-next{
+    position: absolute;
+    /* color: white; */
+    font-size: 25px;
+    top: 50%;
+    margin-top: -18px;
+}
+.categories-next{
+    right: 0;
+}
+
+.categories-container{
+    width: 90vw;
+    height: 20vh;
+    margin: auto;
+    position: relative;
+    margin-top: 1vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.categories-container > div{
+    position :absolute;
+    /* border: 1px solid white; */
+    width: 8vw;
+    height: 90%;
+}
+.categories-container > div > img{
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+.containerClass{
+    width: 93%;
+    margin: auto;
+    margin-top: 5vh;
+}
+.mobileHeading{
+    /* color: black; */
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 2vh;
+}

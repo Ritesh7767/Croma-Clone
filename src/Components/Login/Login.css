@@ -1,0 +1,12 @@
+.signInCheckbox{
+    background-color: black;
+    color: black;
+}
+.signInCheckbox::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: aqua;
+    color: black;
+}
